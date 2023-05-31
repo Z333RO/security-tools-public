@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Python3 Website Spider Script
+# Recursively grab URL links from a domain.
 
 import requests
 import re
