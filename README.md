@@ -1,6 +1,6 @@
 # security-tools-public
 
-My public repository of security tools and scripts for use in web, network and cloud penetration testing engagements. Useful for scraping, enumeration, hash cracking and general living off the land scenarios if you can't install your usual pentesting tools on a machine. 
+My public repository of hacking tools and scripts for use in web, network and cloud penetration testing engagements. Useful for scraping, enumeration, hash cracking and general living off the land scenarios if you can't install your usual pentesting tools on a machine. 
 
 ## Web Enumeration
 1. website_spider_python3.py - Grabs links from a domain
