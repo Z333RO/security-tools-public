@@ -3,20 +3,20 @@
 My public repository of hacking tools and scripts for use in web, network and cloud penetration testing engagements. Useful for scraping, enumeration, hash cracking and general living off the land scenarios if you can't install your usual pentesting tools on a machine. 
 
 ## Web Enumeration
-1. website_spider_python3.py - Grabs links from a domain
-2. directory_crawler_python2.py - Directory busting/enumeration
-3. subdomain_crawler_python2.py - Subdomain enumeration
+1. website_spide.py - Grabs links from a domain
+2. directory_crawler.py - Directory busting/enumeration
+3. subdomain_crawler.py - Subdomain enumeration
 4. email_scraper.py - Email scraping tool for login brute forcing/dictionary attacks
-5. form_data_extract_python2.py - Useful for login brute forcing/dictionary attacks
+5. form_data_extract.py - Useful for login brute forcing/dictionary attacks
 
 
 ## Network Enumeration
-1. network_scanner_python2.py - ARP Scanner to grab MAC addresses of devices in the network
-2. packet_sniffer_python3.py - Sniffs packets in a network for user credentials
+1. network_scanner.py - ARP Scanner to grab MAC addresses of devices in the network
+2. packet_sniffer.py - Sniffs packets in a network for user credentials
 3. portscanner.py - Simple port scanner
 
 ## Password Dictionary Attacks and Bruteforce
-1. login_dictionary_attack_python2.py - Dictionary attack with wordlist once you get a username
+1. login_dictionary_attack.py - Dictionary attack with wordlist once you get a username
 2. ssh_bruteforce.py - SSH Bruteforce Tool
 
 ## Network Man-In-The-Middle Attacks 
@@ -36,8 +36,8 @@ My public repository of hacking tools and scripts for use in web, network and cl
 1. simple_blind_SQLi.py - Simple blind SQL Injection Script
 
 ## Listeners and Backdoors
-1. listener_python2.py - Python listener if for some reason you can't run netcat or meterpreter listener
-2. reverse_backdoor_python2.py - Reverse "shell" if you can't run your payload on the target machine  
+1. listener.py - Python listener if for some reason you can't run netcat or meterpreter listener
+2. reverse_backdoor.py - Reverse "shell" if you can't run your payload on the target machine  
 
 ## Exploits
 1. download_execute.py - When run by user, downloads and executes Lazagne.exe. Then sends printed data to your email.
