@@ -32,7 +32,7 @@ My public repository of hacking tools and scripts for use in web, network and cl
 4. jwt_public_key_exploit.rb - JWT pulic key exploit
 5. jwt_secret_bruteforce.rb - JWT secret bruteforce
 
-## SQL Injectoin
+## SQL Injection
 1. simple_blind_SQLi.py - Simple blind SQL Injection Script
 
 ## Listeners and Backdoors
