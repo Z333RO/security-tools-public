@@ -32,6 +32,9 @@ My public repository of hacking tools and scripts for use in web, network and cl
 4. jwt_public_key_exploit.rb - JWT pulic key exploit
 5. jwt_secret_bruteforce.rb - JWT secret bruteforce
 
+## SQL Injectoin
+1. simple_blind_SQLi.py - Simple blind SQL Injection Script
+
 ## Listeners and Backdoors
 1. listener_python2.py - Python listener if for some reason you can't run netcat or meterpreter listener
 2. reverse_backdoor_python2.py - Reverse "shell" if you can't run your payload on the target machine  
