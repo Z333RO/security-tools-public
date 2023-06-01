@@ -3,7 +3,7 @@
 My public repository of hacking tools and scripts for use in web, network and cloud penetration testing engagements. Useful for scraping, enumeration, hash cracking and general living off the land scenarios if you can't install your usual pentesting tools on a machine. 
 
 ## Web Enumeration
-1. website_spide.py - Grabs links from a domain
+1. website_spider.py - Grabs links from a domain
 2. directory_crawler.py - Directory busting/enumeration
 3. subdomain_crawler.py - Subdomain enumeration
 4. email_scraper.py - Email scraping tool for login brute forcing/dictionary attacks
