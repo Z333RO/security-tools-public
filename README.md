@@ -9,7 +9,6 @@ My public repository of hacking tools and scripts for use in web, network and cl
 4. email_scraper.py - Email scraping tool for login brute forcing/dictionary attacks
 5. form_data_extract.py - Useful for login brute forcing/dictionary attacks
 
-
 ## Network Enumeration
 1. network_scanner.py - ARP Scanner to grab MAC addresses of devices in the network
 2. packet_sniffer.py - Sniffs packets in a network for user credentials
@@ -41,3 +40,6 @@ My public repository of hacking tools and scripts for use in web, network and cl
 
 ## Exploits
 1. download_execute.py - When run by user, downloads and executes Lazagne.exe. Then sends printed data to your email.
+
+## Automation 
+1. kitchen_sink.py - Throw the kitchen sink at a target. Specify commands or scans to run at a target all at once.
