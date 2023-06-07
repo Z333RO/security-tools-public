@@ -24,7 +24,7 @@ commands = [
 
 # Create a folder for scan results
 now = datetime.datetime.now()
-folder_name = f"master_scan_{now.strftime('%m_%d_%Y')}_{now.strftime('%H_%M_%S')}"
+folder_name = f"kitchen_sink_{now.strftime('%m_%d_%Y')}_{now.strftime('%H_%M_%S')}"
 os.makedirs(folder_name)
 
 def run_command(command):
