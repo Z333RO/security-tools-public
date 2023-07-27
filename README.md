@@ -43,4 +43,7 @@ My public repository of hacking tools and scripts for use in web, network and cl
 
 ## Automation 
 1. kitchen_sink.py - Throw the kitchen sink at a target. Specify commands or scans to run at a target all at once.
-2. kali_autosetup - Folder with 2 scripts for downloading my most commonly used tools and a setup script to install tools from Kali repo. 
+2. kali_autosetup - Folder with 2 scripts for downloading my most commonly used tools and a setup script to install tools from Kali repo.
+
+## Binaries
+Commonly used compiled binaries 
