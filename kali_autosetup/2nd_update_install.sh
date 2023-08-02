@@ -21,7 +21,7 @@ dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
 
 searchsploit -u
 
-# windows-exploit-suggester setup and dependencies install
+# windows-exploit-suggester setup and dependencies install - install pip2 on kali machine
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python2 get-pip.py
 rm get-pip.py
