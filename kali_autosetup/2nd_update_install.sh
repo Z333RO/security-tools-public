@@ -7,8 +7,8 @@ install_package() {
     apt-get install -y "$1"
 }
 
-apt-get update
-apt-get upgrade 
+apt-get update -y
+apt-get upgrade -y
 
 install_package nuclei
 install_package seclists
