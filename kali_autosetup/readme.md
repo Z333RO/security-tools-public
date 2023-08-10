@@ -4,7 +4,7 @@ IMPORTANT: You might get an error stating that /bin/bash isn't recognized. You n
 1. dos2unix 1st_download_tools_payloads.sh
 2. dos2unix 2nd_update_install.sh
 
-Now run the scripts. If you don't run the above, it might cause issues with folders being named weird.
+Now run the scripts. If you don't run the above, it might cause issues with folders being named weird. I noticed this happens when you download the scripts from github. But if you copy paste the content to a file on Kali, it doesn't seem to cause issues. Anyways, whatever is more convenient and works, just run it.
 
 Run in sequence:
 1. 1st_download_tools_payloads.sh << downloads payloads and tools
