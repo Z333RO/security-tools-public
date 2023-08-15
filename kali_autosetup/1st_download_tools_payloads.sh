@@ -18,6 +18,9 @@ git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester /home/kali/t
 # enum4linux-ng git clone
 git clone https://github.com/cddmp/enum4linux-ng /home/kali/tools/enum4linux-ng
 
+# SMB Crawler - ManSpider
+git clone https://github.com/blacklanternsecurity/MANSPIDER /home/kali/tools/MANSPIDER
+
 # xsstrike tool download
 git clone https://github.com/s0md3v/XSStrike /home/kali/tools/XSStrike
 
@@ -32,6 +35,9 @@ git clone https://github.com/dafthack/MSOLSpray /home/tools/MSOLSpray
 
 # AccessChk Download
 wget https://download.sysinternals.com/files/AccessChk.zip -P /home/kali/server
+
+# Snaffler - Finds creds in Windows machine 
+wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.126/Snaffler.exe -P /home/kali/server
 
 # Sharphound for Bloodhound
 wget https://github.com/BloodHoundAD/SharpHound/releases/download/v1.1.1/SharpHound-v1.1.1.zip -P /home/kali/server
