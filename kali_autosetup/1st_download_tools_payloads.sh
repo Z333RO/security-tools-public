@@ -15,6 +15,21 @@ wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Prives
 git clone https://github.com/The-Z-Labs/linux-exploit-suggester /home/kali/tools/linux-exploit-suggester
 git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester /home/kali/tools/Windows-Exploit-Suggester
 
+# enum4linux-ng git clone
+git clone https://github.com/cddmp/enum4linux-ng /home/kali/tools/enum4linux-ng
+
+# xsstrike tool download
+git clone https://github.com/s0md3v/XSStrike /home/kali/tools/XSStrike
+
+# sub404 download to check for subdomain takeovers
+git clone https://github.com/r3curs1v3-pr0xy/sub404 /home/kali/tools/sub404
+
+#lazyS3 download
+git clone https://github.com/nahamsec/lazys3 /home/kali/tools/lazys3
+
+# MSOL Spray - o365 password spray
+git clone https://github.com/dafthack/MSOLSpray /home/tools/MSOLSpray
+
 # AccessChk Download
 wget https://download.sysinternals.com/files/AccessChk.zip -P /home/kali/server
 
