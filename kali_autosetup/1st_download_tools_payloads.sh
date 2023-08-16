@@ -88,7 +88,7 @@ git clone https://github.com/micahvandeusen/GenericPotato /home/kali/compile/Gen
 git clone https://github.com/GhostPack/Rubeus.git /home/kali/server/Rubeus
 
 # Rubeus - Binary download
-wget https://github.com/hashtaginfosec/vagrantlab/raw/master/Rubeus.exe -P /home/kali/server
+wget https://github.com/Z333RO/security-tools-public/raw/main/odds_ends/Rubeus.exe -P /home/kali/server
 
 # Windows PHP Reverse Shell Script 
 wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/scripts/windows_php_shell.php
