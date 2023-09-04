@@ -1,4 +1,5 @@
 <?php
+    // NOTE: This script still needs work. Still crashes occasionally. 
     // Set an unlimited execution time (you may want to adjust this for security)
     set_time_limit(0);
     
