@@ -33,6 +33,7 @@ pip2 install xlrd==1.2.0
 # Go into the windows exploit suggester folder and run the following to setup exploit-suggester
 # python2 windows-exploit-suggester.py --update
 
-pip3 install pycrypto
+# pip3 install pycrypto
+pip install pycryptodome
 
 updatedb
