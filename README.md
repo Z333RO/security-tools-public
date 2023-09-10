@@ -48,4 +48,5 @@ My public repository of hacking tools and scripts for use in web, network and cl
 1. kali_autosetup - Folder with 2 scripts for downloading my most commonly used tools and a setup script to install tools from Kali repo.
 
 ## Odds and Ends
-Commonly used compiled binaries, tools or other useful scripts
+Commonly used compiled binaries, tools or other useful scripts.
+NOTE: DO NOT USE THESE BINARIES ON PRODUCTION SYSTEMS!! YOU HAVE BEEN WARNED!!
