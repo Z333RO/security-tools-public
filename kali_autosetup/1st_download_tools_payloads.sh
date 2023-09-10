@@ -33,8 +33,10 @@ git clone https://github.com/nahamsec/lazys3 /home/kali/tools/lazys3
 # MSOL Spray - o365 password spray
 git clone https://github.com/dafthack/MSOLSpray /home/tools/MSOLSpray
 
-# AccessChk Download
+# AccessChk Download - you might have to download the older version that accepts eula from command line here: https://xor.cat/assets/other/Accesschk.zip
 wget https://download.sysinternals.com/files/AccessChk.zip -P /home/kali/server
+# Older accesschk
+wget https://xor.cat/assets/other/Accesschk.zip -P /home/kali/server
 
 # Snaffler - Finds creds in Windows machine 
 wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.126/Snaffler.exe -P /home/kali/server
