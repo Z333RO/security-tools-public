@@ -41,7 +41,8 @@ wget https://download.sysinternals.com/files/AccessChk.zip -P /home/kali/server
 # Older accesschk
 wget https://xor.cat/assets/other/Accesschk.zip -P /home/kali/server
 
-# Snaffler - Finds creds in Windows machine 
+# Snaffler - Finds creds in Windows machine
+# You can also just upload the .exe file to the target and it will immediately look for creds and other sensitive info in the domain
 wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.126/Snaffler.exe -P /home/kali/server
 
 # Sharphound for Bloodhound
