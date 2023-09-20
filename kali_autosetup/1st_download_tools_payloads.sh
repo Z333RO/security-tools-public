@@ -21,6 +21,9 @@ git clone https://github.com/cddmp/enum4linux-ng /home/kali/tools/enum4linux-ng
 # SMB Crawler - ManSpider
 git clone https://github.com/blacklanternsecurity/MANSPIDER /home/kali/tools/MANSPIDER
 
+# Powerful python based web crawler
+git clone https://github.com/binux/pyspider /home/kali/tools/pyspider
+
 # xsstrike tool download
 git clone https://github.com/s0md3v/XSStrike /home/kali/tools/XSStrike
 
@@ -31,7 +34,7 @@ git clone https://github.com/r3curs1v3-pr0xy/sub404 /home/kali/tools/sub404
 git clone https://github.com/nahamsec/lazys3 /home/kali/tools/lazys3
 
 # MSOL Spray - o365 password spray
-git clone https://github.com/dafthack/MSOLSpray /home/tools/MSOLSpray
+git clone https://github.com/dafthack/MSOLSpray /home/kali/tools/MSOLSpray
 
 # AccessChk Download - you might have to download the older version that accepts eula from command line here: https://xor.cat/assets/other/Accesschk.zip
 wget https://download.sysinternals.com/files/AccessChk.zip -P /home/kali/server
@@ -49,6 +52,9 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEAS.bat -P /home/kali/server
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEASany.exe -P /home/kali/server
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEASx64.exe -P /home/kali/server
+
+# pspy - unprivileged Linux process snooping
+git clone https://github.com/DominicBreuker/pspy /home/kali/tools/pspy
 
 # Seatbelt - Compiled by carlospolop
 wget wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5AnyCPU.exe -P /home/kali/server
