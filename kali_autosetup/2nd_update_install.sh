@@ -20,6 +20,7 @@ install_package bloodhound
 install_package trufflehog
 install_package dirsearch
 install_package keepass2
+install_package knockd
 
 dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
 
