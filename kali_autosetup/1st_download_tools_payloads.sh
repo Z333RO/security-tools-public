@@ -85,6 +85,9 @@ wget https://github.com/antonioCoco/RoguePotato/releases/download/1.0/RoguePotat
 wget https://github.com/foxglovesec/Potato/raw/master/source/Potato/Potato/bin/Release/Potato.exe -P /home/kali/server
 wget https://github.com/breenmachine/RottenPotatoNG/blob/master/RottenPotatoEXE/x64/Release/MSFRottenPotato.exe -P /home/kali/server
 
+# god potato binary - new exploit
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe -P /home/kali/server
+
 # Potatoes to compile
 # Note: this is HOT POTATO - there is a binary in the bin folder you can use
 git clone https://github.com/foxglovesec/Potato /home/kali/compile/Potato
