@@ -17,3 +17,5 @@ def process_wordlist(input_file, output_file):
 
 # Usage example:
 process_wordlist('wordlist.txt', 'new-wordlist.txt')
+
+# This script takes an input file, reads the wordlist line by line and creates a 1st character upper-case or lower-case and appends to a new file. Useful if you run cewl and need to expand the wordlist just in case for creds that have an upper/lower case character username or password.
