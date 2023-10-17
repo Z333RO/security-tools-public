@@ -48,6 +48,9 @@ wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.126/Snaffler.exe
 # Sharphound for Bloodhound
 wget https://github.com/BloodHoundAD/SharpHound/releases/download/v1.1.1/SharpHound-v1.1.1.zip -P /home/kali/server
 
+# katana crawler binary
+wget https://github.com/projectdiscovery/katana/releases/download/v1.0.4/katana_1.0.4_linux_amd64.zip -P /home/kali/tools
+
 # PEASS - Privesc Tools
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/linpeas.sh -P /home/kali/server
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEAS.bat -P /home/kali/server
