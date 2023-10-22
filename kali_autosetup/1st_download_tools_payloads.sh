@@ -57,6 +57,9 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEASany.exe -P /home/kali/server
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEASx64.exe -P /home/kali/server
 
+# pypykatz git clone
+git clone https://github.com/skelsec/pypykatz /home/kali/tools/pypykatz
+
 # pspy - unprivileged Linux process snooping
 git clone https://github.com/DominicBreuker/pspy /home/kali/tools/pspy
 
