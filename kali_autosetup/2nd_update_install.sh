@@ -22,6 +22,7 @@ install_package dirsearch
 install_package keepass2
 install_package knockd
 install_package subfinder
+install_package docker.io
 
 dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
 
