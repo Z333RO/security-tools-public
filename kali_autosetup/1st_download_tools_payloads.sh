@@ -51,6 +51,10 @@ wget https://github.com/BloodHoundAD/SharpHound/releases/download/v1.1.1/SharpHo
 # katana crawler binary
 wget https://github.com/projectdiscovery/katana/releases/download/v1.0.4/katana_1.0.4_linux_amd64.zip -P /home/kali/tools
 
+# chisel binaries for windows and linux
+wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_linux_amd64.gz -P /home/kali/server
+wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_amd64.gz -P /home/kali/server
+
 # PEASS - Privesc Tools
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/linpeas.sh -P /home/kali/server
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEAS.bat -P /home/kali/server
