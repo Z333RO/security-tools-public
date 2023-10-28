@@ -7,7 +7,7 @@ mkdir -p /home/kali/tools /home/kali/scripts /home/kali/server /home/kali/loot /
 wget https://github.com/ParrotSec/mimikatz/raw/master/x64/mimikatz.exe -P /home/kali/server
 wget -O /home/kali/server/old_mimikatz_trunk.zip https://github.com/caday00/mimikatz2.1.1/raw/master/mimikatz_trunk.zip
 
-# nmap binary downloads
+# nmap binary download - ONLY USE FOR CTFs and to put on the jump box of a network
 wget https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_64/nmap -P /home/kali/server
 
 # AD and Windows Enumeration
