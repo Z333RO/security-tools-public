@@ -24,6 +24,18 @@ install_package knockd
 install_package subfinder
 install_package docker.io
 install_package chisel
+install_package dnsrecon
+install_package feroxbuster
+install_package gobuster
+install_package nbtscan
+install_package onesixtyone 
+install_package oscanner 
+install_package redis-tools
+install_package svwar
+install_package tnscmd10g
+install_package whatweb
+install_package wkhtmltopdf
+
 
 dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
 
