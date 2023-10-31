@@ -21,6 +21,9 @@ git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester /home/kali/t
 # enum4linux-ng git clone
 git clone https://github.com/cddmp/enum4linux-ng /home/kali/tools/enum4linux-ng
 
+# autorecon from Tiberius
+git clone https://github.com/Tib3rius/AutoRecon /home/kali/tools/AutoRecon
+
 # SMB Crawler - ManSpider
 git clone https://github.com/blacklanternsecurity/MANSPIDER /home/kali/tools/MANSPIDER
 
