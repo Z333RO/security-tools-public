@@ -35,6 +35,7 @@ install_package svwar
 install_package tnscmd10g
 install_package whatweb
 install_package wkhtmltopdf
+install_package zaproxy
 
 
 dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
