@@ -42,6 +42,9 @@ git clone https://github.com/nahamsec/lazys3 /home/kali/tools/lazys3
 # MSOL Spray - o365 password spray
 git clone https://github.com/dafthack/MSOLSpray /home/kali/tools/MSOLSpray
 
+# Parse through dehashed data using its API
+git clone https://github.com/hmaverickadams/DeHashed-API-Tool /home/kali/tools/DeHashed-API-Tool
+
 # AutoNTDS - dumps NTDS and cracks with hashcat 
 git clone https://github.com/hmaverickadams/autoNTDS /home/kali/tools/autoNTDS
 
