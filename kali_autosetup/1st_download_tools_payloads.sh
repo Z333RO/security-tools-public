@@ -151,3 +151,6 @@ wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1
 
 # Octopii
 git clone https://github.com/redhuntlabs/Octopii /home/kali/tools/Octopii
+
+# PowerLess Shell - a way to bypass powershell restrictions by executing powershell scripts without powershell
+git clone https://github.com/Mr-Un1k0d3r/PowerLessShell /home/kali/tools/PowerLessShell
