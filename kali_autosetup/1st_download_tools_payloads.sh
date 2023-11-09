@@ -104,6 +104,9 @@ wget https://raw.githubusercontent.com/samratashok/nishang/master/Shells/Invoke-
 # Creds Dumping w/ LaZagne - Only Windows - go to repo to grab the Linux version
 wget https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.5/LaZagne.exe -P /home/kali/server
 
+# Really good API fuzzer 
+wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz -P /home/kali/tools
+
 # Refer to this link for use of all potatoes: https://jlajara.gitlab.io/Potatoes_Windows_Privesc
 
 # Potatoes - Binaries
