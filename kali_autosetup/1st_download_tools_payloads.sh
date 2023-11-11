@@ -66,6 +66,9 @@ wget https://github.com/projectdiscovery/katana/releases/download/v1.0.4/katana_
 # dotdotpwn - for auto path traversal attacks
 git clone https://github.com/wireghoul/dotdotpwn /home/kali/tools/dotdotpwn
 
+# ms word macro payload generator for reverse shells
+git clone https://github.com/glowbase/macro_reverse_shell /home/kali/tools/macro_reverse_shell
+
 # chisel binaries for windows and linux
 wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_linux_amd64.gz -P /home/kali/server
 wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_amd64.gz -P /home/kali/server
