@@ -54,6 +54,7 @@ Download and install my tools from here:
 
 # Pivoting
 
+# Misc Commands
 ## SSH Tunneling 
 
 ## Chisel
