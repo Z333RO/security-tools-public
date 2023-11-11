@@ -48,6 +48,9 @@ git clone https://github.com/hmaverickadams/DeHashed-API-Tool /home/kali/tools/D
 # AutoNTDS - dumps NTDS and cracks with hashcat 
 git clone https://github.com/hmaverickadams/autoNTDS /home/kali/tools/autoNTDS
 
+# powershell command obfuscator
+git clone https://github.com/danielbohannon/Invoke-Obfuscation /home/kali/tools/Invoke-Obfuscation
+
 # AccessChk Download - you might have to download the older version that accepts eula from command line here: https://xor.cat/assets/other/Accesschk.zip
 wget https://download.sysinternals.com/files/AccessChk.zip -P /home/kali/server
 # Older accesschk
