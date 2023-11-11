@@ -3,8 +3,8 @@ This is a cheat sheet of common and useful commands I use for CTFs and Penetrati
 
 Prereqs:
 Download and install my tools from here:
-https://github.com/Z333RO/security-tools-public/blob/main/kali_autosetup/1st_download_tools_payloads.sh
-https://github.com/Z333RO/security-tools-public/blob/main/kali_autosetup/2nd_update_install.sh
+- https://github.com/Z333RO/security-tools-public/blob/main/kali_autosetup/1st_download_tools_payloads.sh
+- https://github.com/Z333RO/security-tools-public/blob/main/kali_autosetup/2nd_update_install.sh
 
 # Web Enumeration 
 
