@@ -60,6 +60,13 @@ crackmapexec smb 10.10.10.0/24 -u '' -p '' --shares
 crackmapexec smb 10.10.110.0/24 -u users.txt -p password.txt continue-on-success
 
 ```
+## enum4linux
+
+## enum4linux-ng
+
+## smbmap
+
+## manspider
 
 ## bloodhound
 
@@ -147,6 +154,7 @@ xfreerdp /v:target_IP /u:user /pth:NT_HASH /cert:ignore +clipboard /dynamic-reso
 ## Potatoes
 
 
+
 # Post Exploitation 
 ## Mimikatz
 
@@ -154,7 +162,9 @@ xfreerdp /v:target_IP /u:user /pth:NT_HASH /cert:ignore +clipboard /dynamic-reso
 
 ## Snaffler
 
-## Bloodhound
+## ADPEASS
+
+## 
 
 # AV Bypass Techniques
 
