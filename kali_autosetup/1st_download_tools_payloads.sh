@@ -24,8 +24,8 @@ git clone https://github.com/cddmp/enum4linux-ng /home/kali/tools/enum4linux-ng
 # autorecon from Tiberius
 git clone https://github.com/Tib3rius/AutoRecon /home/kali/tools/AutoRecon
 
-# W3AF web scanner
-git clone --depth 1 https://github.com/andresriancho/w3af.git /home/kali/tools/w3af
+# W3AF web scanner - archiving for now (issues with installation)
+# git clone --depth 1 https://github.com/andresriancho/w3af.git /home/kali/tools/w3af
 
 # SMB Crawler - ManSpider
 git clone https://github.com/blacklanternsecurity/MANSPIDER /home/kali/tools/MANSPIDER
