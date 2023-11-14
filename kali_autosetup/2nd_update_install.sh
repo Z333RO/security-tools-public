@@ -55,4 +55,7 @@ pip2 install xlrd==1.2.0
 # pip3 install pycrypto
 pip install pycryptodome
 
+# install wapiti if not on kali
+pip3 install wapiti3
+
 updatedb
