@@ -80,10 +80,10 @@ wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_li
 wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_amd64.gz -P /home/kali/server
 
 # PEASS - Privesc Tools
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/linpeas.sh -P /home/kali/server
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEAS.bat -P /home/kali/server
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEASany.exe -P /home/kali/server
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20230724-3e05f4c7/winPEASx64.exe -P /home/kali/server
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/linpeas.sh -P /home/kali/server
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEAS.bat -P /home/kali/server
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASany.exe -P /home/kali/server
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASx64.exe -P /home/kali/server
 
 # PwnKit git clone
 git clone https://github.com/ly4k/PwnKit /home/kali/server/PwnKit
