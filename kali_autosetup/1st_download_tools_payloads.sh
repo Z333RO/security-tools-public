@@ -48,6 +48,9 @@ git clone https://github.com/dafthack/MSOLSpray /home/kali/tools/MSOLSpray
 # Parse through dehashed data using its API
 git clone https://github.com/hmaverickadams/DeHashed-API-Tool /home/kali/tools/DeHashed-API-Tool
 
+# Project Management and Report Writing with Ghostwriter
+git clone https://github.com/GhostManager/Ghostwriter.git /home/kali/tools/Ghostwriter
+
 # AutoNTDS - dumps NTDS and cracks with hashcat 
 git clone https://github.com/hmaverickadams/autoNTDS /home/kali/tools/autoNTDS
 
