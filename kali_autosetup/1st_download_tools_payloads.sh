@@ -175,3 +175,6 @@ git clone https://github.com/redhuntlabs/Octopii /home/kali/tools/Octopii
 
 # PowerLess Shell - a way to bypass powershell restrictions by executing powershell scripts without powershell
 git clone https://github.com/Mr-Un1k0d3r/PowerLessShell /home/kali/tools/PowerLessShell
+
+# Drone exploit framework similar to metasploit
+git clone https://github.com/dhondta/dronesploit /home/kali/tools/dronesploit
