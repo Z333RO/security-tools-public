@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create the necessary directories in /home/kali
-mkdir -p /home/kali/tools /home/kali/scripts /home/kali/server /home/kali/loot /home/kali/custom_scripts /home/kali/vpn /home/kali/compile
+mkdir -p /home/kali/tools /home/kali/scripts /home/kali/server /home/kali/loot /home/kali/custom_scripts /home/kali/vpn /home/kali/compile /home/kali/crack
 
 # Mimikatz - old and new
 wget https://github.com/ParrotSec/mimikatz/raw/master/x64/mimikatz.exe -P /home/kali/server
