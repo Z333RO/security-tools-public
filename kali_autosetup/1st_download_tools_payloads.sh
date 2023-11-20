@@ -99,14 +99,15 @@ git clone https://github.com/skelsec/pypykatz /home/kali/tools/pypykatz
 
 # pspy - unprivileged Linux process snooping
 git clone https://github.com/DominicBreuker/pspy /home/kali/tools/pspy
+wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 -P /home/kali/server
 
 # Seatbelt - Compiled by carlospolop
-wget wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5AnyCPU.exe -P /home/kali/server
-wget wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5x64.exe -P /home/kali/server
-wget wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5x86.exe -P /home/kali/server
-wget wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4AnyCPU.exe -P /home/kali/server
-wget wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4x64.exe -P /home/kali/server
-wget wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4x86.exe -P /home/kali/server
+wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5AnyCPU.exe -P /home/kali/server
+wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5x64.exe -P /home/kali/server
+wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5x86.exe -P /home/kali/server
+wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4AnyCPU.exe -P /home/kali/server
+wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4x64.exe -P /home/kali/server
+wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4x86.exe -P /home/kali/server
 
 # Chisel - Pivoting
 wget https://github.com/jpillora/chisel/releases/download/v1.8.1/chisel_1.8.1_windows_amd64.gz -P /home/kali/server
