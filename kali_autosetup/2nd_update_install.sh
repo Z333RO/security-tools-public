@@ -58,4 +58,7 @@ pip install pycryptodome
 # install wapiti if not on kali
 pip3 install wapiti3
 
+# arsenal - cheatsheet tool
+python3 -m pip install arsenal-cli
+
 updatedb
