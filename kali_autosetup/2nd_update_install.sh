@@ -59,6 +59,8 @@ pip install pycryptodome
 pip3 install wapiti3
 
 # arsenal - cheatsheet tool
-# python3 -m pip install arsenal-cli
+python3 -m pip install arsenal-cli
+# This fixes an error we have when we run arsenal
+sysctl -w dev.tty.legacy_tiocsti=1
 
 updatedb
