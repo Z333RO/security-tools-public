@@ -182,3 +182,6 @@ git clone https://github.com/dhondta/dronesploit /home/kali/tools/dronesploit
 
 # arsenal toolkit - cheat sheet
 git clone https://github.com/Orange-Cyberdefense/arsenal /home/kali/tools/arsenal
+
+# Create alias for arsenal toolkit - type 'a' to run:
+alias a='arsenal'
