@@ -179,3 +179,6 @@ git clone https://github.com/Mr-Un1k0d3r/PowerLessShell /home/kali/tools/PowerLe
 
 # Drone exploit framework similar to metasploit
 git clone https://github.com/dhondta/dronesploit /home/kali/tools/dronesploit
+
+# arsenal toolkit - cheat sheet
+git clone https://github.com/Orange-Cyberdefense/arsenal /home/kali/tools/arsenal
