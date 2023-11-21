@@ -59,6 +59,6 @@ pip install pycryptodome
 pip3 install wapiti3
 
 # arsenal - cheatsheet tool
-python3 -m pip install arsenal-cli
+# python3 -m pip install arsenal-cli
 
 updatedb
