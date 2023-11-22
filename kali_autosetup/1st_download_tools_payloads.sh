@@ -183,5 +183,6 @@ git clone https://github.com/dhondta/dronesploit /home/kali/tools/dronesploit
 # arsenal toolkit - cheat sheet
 git clone https://github.com/Orange-Cyberdefense/arsenal /home/kali/tools/arsenal
 
-# Create alias for arsenal toolkit - type 'a' to run:
+# Create alias for arsenal toolkit - type 'a' to run on zsh:
 # alias a='arsenal'
+echo "alias a='arsenal'" >> ~/.zshrc
