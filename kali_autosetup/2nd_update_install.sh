@@ -38,6 +38,7 @@ install_package wkhtmltopdf
 install_package zaproxy
 install_package hexedit
 install_package skipfish
+install_package code
 
 
 dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
