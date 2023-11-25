@@ -75,6 +75,9 @@ wget https://github.com/BloodHoundAD/SharpHound/releases/download/v1.1.1/SharpHo
 # katana crawler binary
 wget https://github.com/projectdiscovery/katana/releases/download/v1.0.4/katana_1.0.4_linux_amd64.zip -P /home/kali/tools
 
+# Hakrawler
+git clone https://github.com/hakluke/hakrawler /home/kali/tools/hakrawler
+
 # dotdotpwn - for auto path traversal attacks
 git clone https://github.com/wireghoul/dotdotpwn /home/kali/tools/dotdotpwn
 
