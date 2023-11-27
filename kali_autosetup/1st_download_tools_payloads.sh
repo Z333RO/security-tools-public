@@ -37,6 +37,7 @@ git clone https://github.com/redhuntlabs/Octopii /home/kali/tools/Octopii
 wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz -P /home/kali/tools
 
 
+
 # PAYLOADS AND REVERSE SHELLS
 
 # ms word macro payload generator for reverse shells
@@ -45,7 +46,6 @@ git clone https://github.com/glowbase/macro_reverse_shell /home/kali/tools/macro
 # Windows PHP Reverse Shell Script 
 wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/scripts/windows_php_shell.php
 wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/server/windows_php_shell.php
-
 
 
 
@@ -61,6 +61,7 @@ wget https://github.com/projectdiscovery/katana/releases/download/v1.0.4/katana_
 git clone https://github.com/hakluke/hakrawler /home/kali/tools/hakrawler
 
 
+
 # WEB AND CLOUD RECON
 
 # sub404 download to check for subdomain takeovers
@@ -68,6 +69,7 @@ git clone https://github.com/r3curs1v3-pr0xy/sub404 /home/kali/tools/sub404
 
 #lazyS3 download
 git clone https://github.com/nahamsec/lazys3 /home/kali/tools/lazys3
+
 
 
 # WEB EXPLOIT TOOLS
@@ -162,6 +164,7 @@ wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltN
 wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4x86.exe -P /home/kali/server
 
 
+
 # POST EXPLOITATION
 
 # Snaffler - Finds creds in Windows machine
@@ -176,6 +179,7 @@ git clone https://github.com/GhostPack/Rubeus.git /home/kali/server/Rubeus
 
 # Rubeus - Binary download
 wget https://github.com/Z333RO/security-tools-public/raw/main/odds_ends/Rubeus.exe -P /home/kali/server
+
 
 
 # PIVOTING
@@ -197,6 +201,7 @@ git clone https://github.com/danielbohannon/Invoke-Obfuscation /home/kali/tools/
 
 # PowerLess Shell - a way to bypass powershell restrictions by executing powershell scripts without powershell
 git clone https://github.com/Mr-Un1k0d3r/PowerLessShell /home/kali/tools/PowerLessShell
+
 
 
 # MISC
