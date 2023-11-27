@@ -118,6 +118,9 @@ wget https://raw.githubusercontent.com/lord-alfred/ipranges/main/all/ipv4_merged
 # Github Enumeration Tools
 git clone https://github.com/gwen001/github-regexp /home/kali/tools/github-regexp
 
+# Subdomain Recon via Github
+git clone https://github.com/gwen001/github-subdomains /home/kali/tools/github-subdomains
+
 # Favicon Analysis
 git clone https://github.com/devanshbatham/FavFreak /home/kali/tools/FavFreak
 git clone https://github.com/pielco11/fav-up /home/kali/tools/FavFreak
