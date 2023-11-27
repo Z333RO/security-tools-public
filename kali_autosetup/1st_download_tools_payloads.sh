@@ -283,9 +283,13 @@ wget https://github.com/jpillora/chisel/releases/download/v1.8.1/chisel_1.8.1_li
 wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_linux_amd64.gz -P /home/kali/server
 wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_amd64.gz -P /home/kali/server
 
+
+
 # CRACKING
 # AutoNTDS - dumps NTDS and cracks with hashcat 
 git clone https://github.com/hmaverickadams/autoNTDS /home/kali/tools/autoNTDS
+
+
 
 # EVASION
 # powershell command obfuscator
