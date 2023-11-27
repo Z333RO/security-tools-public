@@ -67,8 +67,54 @@ git clone https://github.com/hakluke/hakrawler /home/kali/tools/hakrawler
 # sub404 download to check for subdomain takeovers
 git clone https://github.com/r3curs1v3-pr0xy/sub404 /home/kali/tools/sub404
 
+# subfinder - fast subdomain enumeration tool - faster than Amass
+wget https://github.com/projectdiscovery/subfinder/releases/download/v2.6.3/subfinder_2.6.3_linux_amd64.zip -P /home/kali/tools
+
+# AI subdomain recon
+git clone https://github.com/jhaddix/SubreconGPT /home/kali/tools/SubreconGPT
+
 #lazyS3 download
 git clone https://github.com/nahamsec/lazys3 /home/kali/tools/lazys3
+
+# Recon Frameworks
+git clone https://github.com/six2dez/reconftw /home/kali/tools/reconftw
+git clone https://github.com/yogeshojha/rengine /home/kali/tools/rengine
+
+# Automated OSINT Recon Frameworks
+git clone https://github.com/Dheerajmadhukar/karma_v2 /home/kali/tools/karma_v2
+git clone https://github.com/blacklanternsecurity/bbot /home/kali/tools/bbot
+
+# Bug Bounty Frameworks
+git clone https://github.com/R-s0n/ars0n-framework /home/kali/tools/ars0n-framework
+
+# Check MDI - Enumerate valid MS Domains
+git clone https://github.com/expl0itabl3/check_mdi /home/kali/tools/check_mdi
+
+# Shodan Scanner
+git clone https://github.com/s0md3v/Smap /home/kali/tools/Smap
+
+# Cloud Recon 
+git clone https://github.com/g0ldencybersec/CloudRecon /home/kali/tools/CloudRecon
+
+# All cloud ranges
+wget https://raw.githubusercontent.com/lord-alfred/ipranges/main/all/ipv4_merged.txt -P /home/kali/tools
+
+# Github Enumeration Tools
+git clone https://github.com/gwen001/github-regexp /home/kali/tools/github-regexp
+
+# Favicon Analysis
+git clone https://github.com/devanshbatham/FavFreak /home/kali/tools/FavFreak
+git clone https://github.com/pielco11/fav-up /home/kali/tools/FavFreak
+
+# JHaddix - Bounty Catch Script:
+wget https://gist.githubusercontent.com/jhaddix/91035a01168902e8130a8e1bb383ae1e/raw/13bf7bafd2b3d62a2bc9ef354b38e1b589ef46be/bountycatch.py -P /home/kali/tools
+
+# JHaddix - 2Recon Script:
+wget https://gist.githubusercontent.com/jhaddix/676e25ec0ee289406d7bece1ab074b50/raw/0c148efd9c8fc161f6a358669e301b410beb5f0a/2recon.py -P /home/kali/tools
+
+# JHaddix - Automated Google Dorks Script
+# ./Gdorklinks.sh  NameOfSomeCompanyMaybe
+wget https://gist.githubusercontent.com/jhaddix/1fb7ab2409ab579178d2a79959909b33/raw/e9fea4c0f6982546d90d241bc3e19627a7083e5e/Gdorklinks.sh -P /home/kali/tools
 
 
 
