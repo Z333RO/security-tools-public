@@ -165,10 +165,16 @@ git clone https://github.com/wireghoul/dotdotpwn /home/kali/tools/dotdotpwn
 # Automated SQLi Tool
 git clone https://github.com/r0oth3x49/ghauri /home/kali/tools/ghauri
 
+# SSRF common payloads - cloud metadata
+wget https://gist.githubusercontent.com/jhaddix/78cece26c91c6263653f31ba453e273b/raw/a4869d58a5ce337d1465c2d1b29777b9eecd371f/cloud_metadata.txt -P /home/kali/tools
+
+# XXE payload list
+git clone https://github.com/payloadbox/xxe-injection-payload-list /home/kali/tools/xxe-injection-payload-list
 
 # Phishing Tools
 git clone https://github.com/fin3ss3g0d/evilgophish /home/kali/tools/evilgophish
 git clone https://github.com/kgretzky/evilginx2 /home/kali/tools/evilginx2
+
 
 
 # PRIVESC TOOLS
