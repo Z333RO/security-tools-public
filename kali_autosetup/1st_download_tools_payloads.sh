@@ -27,10 +27,26 @@ wget https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_6
 wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1 -P /home/kali/server
 wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1 -P /home/kali/server
 
+# Rustscan
+wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb -P /home/kali/tools
+
+# Octopii
+git clone https://github.com/redhuntlabs/Octopii /home/kali/tools/Octopii
+
+# Really good API fuzzer 
+wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz -P /home/kali/tools
+
+
 # PAYLOADS AND REVERSE SHELLS
 
 # ms word macro payload generator for reverse shells
 git clone https://github.com/glowbase/macro_reverse_shell /home/kali/tools/macro_reverse_shell
+
+# Windows PHP Reverse Shell Script 
+wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/scripts/windows_php_shell.php
+wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/server/windows_php_shell.php
+
+
 
 
 # WEB CRAWLERS
@@ -68,9 +84,53 @@ git clone https://github.com/wireghoul/dotdotpwn /home/kali/tools/dotdotpwn
 
 
 # PRIVESC TOOLS
+# PwnKit git clone
+git clone https://github.com/ly4k/PwnKit /home/kali/server/PwnKit
+
+# Refer to this link for use of all potatoes: https://jlajara.gitlab.io/Potatoes_Windows_Privesc
+
+# Potatoes - Binaries
+wget https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe -P /home/kali/server
+wget https://github.com/antonioCoco/RoguePotato/releases/download/1.0/RoguePotato.zip -P /home/kali/server
+# This is the HOT POTATO binary
+wget https://github.com/foxglovesec/Potato/raw/master/source/Potato/Potato/bin/Release/Potato.exe -P /home/kali/server
+wget https://github.com/breenmachine/RottenPotatoNG/blob/master/RottenPotatoEXE/x64/Release/MSFRottenPotato.exe -P /home/kali/server
+
+# god potato binary - new exploit
+wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe -P /home/kali/server
+
+# Potatoes to compile
+# Note: this is HOT POTATO - there is a binary in the bin folder you can use
+git clone https://github.com/foxglovesec/Potato /home/kali/compile/Potato
+
+# Note: This is ROTTEN POTATO - binary is in x64/releases folder
+git clone https://github.com/breenmachine/RottenPotatoNG /home/kali/compile/RottenPotatoNG
+
+# Note: This is the repo for Juicy Potato
+git clone https://github.com/ohpe/juicy-potato /home/kali/compile/juicy-potato
+
+# Note: Sweet Potato repo
+git clone https://github.com/CCob/SweetPotato /home/kali/compile/SweetPotato
+
+# Note: Generic Potato repo
+git clone https://github.com/micahvandeusen/GenericPotato /home/kali/compile/GenericPotato
+
+# PrintNightmare Script
+wget https://raw.githubusercontent.com/cube0x0/CVE-2021-1675/main/CVE-2021-1675.py -P /home/kali/scripts
+
+# PrintSpoofer
+wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe -P /home/kali/server
+wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe -P /home/kali/server
+
 # Mimikatz - old and new
 wget https://github.com/ParrotSec/mimikatz/raw/master/x64/mimikatz.exe -P /home/kali/server
 wget -O /home/kali/server/old_mimikatz_trunk.zip https://github.com/caday00/mimikatz2.1.1/raw/master/mimikatz_trunk.zip
+
+# PEASS - Privesc Tools
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/linpeas.sh -P /home/kali/server
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEAS.bat -P /home/kali/server
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASany.exe -P /home/kali/server
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASx64.exe -P /home/kali/server
 
 # Exploit Suggester for Linux and Windows
 git clone https://github.com/The-Z-Labs/linux-exploit-suggester /home/kali/tools/linux-exploit-suggester
@@ -111,13 +171,21 @@ wget https://github.com/SnaffCon/Snaffler/releases/download/1.0.126/Snaffler.exe
 # Creds Dumping w/ LaZagne - Only Windows - go to repo to grab the Linux version
 wget https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.5/LaZagne.exe -P /home/kali/server
 
+# Rubeus - Repo but no binaries
+git clone https://github.com/GhostPack/Rubeus.git /home/kali/server/Rubeus
+
+# Rubeus - Binary download
+wget https://github.com/Z333RO/security-tools-public/raw/main/odds_ends/Rubeus.exe -P /home/kali/server
+
 
 # PIVOTING
 # Chisel - Pivoting
 wget https://github.com/jpillora/chisel/releases/download/v1.8.1/chisel_1.8.1_windows_amd64.gz -P /home/kali/server
 wget https://github.com/jpillora/chisel/releases/download/v1.8.1/chisel_1.8.1_linux_amd64.gz -P /home/kali/server
 
-
+# chisel binaries for windows and linux
+wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_linux_amd64.gz -P /home/kali/server
+wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_amd64.gz -P /home/kali/server
 
 # CRACKING
 # AutoNTDS - dumps NTDS and cracks with hashcat 
@@ -127,6 +195,9 @@ git clone https://github.com/hmaverickadams/autoNTDS /home/kali/tools/autoNTDS
 # powershell command obfuscator
 git clone https://github.com/danielbohannon/Invoke-Obfuscation /home/kali/tools/Invoke-Obfuscation
 
+# PowerLess Shell - a way to bypass powershell restrictions by executing powershell scripts without powershell
+git clone https://github.com/Mr-Un1k0d3r/PowerLessShell /home/kali/tools/PowerLessShell
+
 
 # MISC
 
@@ -135,102 +206,6 @@ git clone https://github.com/hmaverickadams/DeHashed-API-Tool /home/kali/tools/D
 
 # Project Management and Report Writing with Ghostwriter
 git clone https://github.com/GhostManager/Ghostwriter.git /home/kali/tools/Ghostwriter
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# chisel binaries for windows and linux
-wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_linux_amd64.gz -P /home/kali/server
-wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_amd64.gz -P /home/kali/server
-
-# PEASS - Privesc Tools
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/linpeas.sh -P /home/kali/server
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEAS.bat -P /home/kali/server
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASany.exe -P /home/kali/server
-wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASx64.exe -P /home/kali/server
-
-# PwnKit git clone
-git clone https://github.com/ly4k/PwnKit /home/kali/server/PwnKit
-
-
-
-
-
-
-
-
-
-
-
-# Really good API fuzzer 
-wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz -P /home/kali/tools
-
-# Refer to this link for use of all potatoes: https://jlajara.gitlab.io/Potatoes_Windows_Privesc
-
-# Potatoes - Binaries
-wget https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe -P /home/kali/server
-wget https://github.com/antonioCoco/RoguePotato/releases/download/1.0/RoguePotato.zip -P /home/kali/server
-# This is the HOT POTATO binary
-wget https://github.com/foxglovesec/Potato/raw/master/source/Potato/Potato/bin/Release/Potato.exe -P /home/kali/server
-wget https://github.com/breenmachine/RottenPotatoNG/blob/master/RottenPotatoEXE/x64/Release/MSFRottenPotato.exe -P /home/kali/server
-
-# god potato binary - new exploit
-wget https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe -P /home/kali/server
-
-# Potatoes to compile
-# Note: this is HOT POTATO - there is a binary in the bin folder you can use
-git clone https://github.com/foxglovesec/Potato /home/kali/compile/Potato
-
-# Note: This is ROTTEN POTATO - binary is in x64/releases folder
-git clone https://github.com/breenmachine/RottenPotatoNG /home/kali/compile/RottenPotatoNG
-
-# Note: This is the repo for Juicy Potato
-git clone https://github.com/ohpe/juicy-potato /home/kali/compile/juicy-potato
-
-# Note: Sweet Potato repo
-git clone https://github.com/CCob/SweetPotato /home/kali/compile/SweetPotato
-
-# Note: Generic Potato repo
-git clone https://github.com/micahvandeusen/GenericPotato /home/kali/compile/GenericPotato
-
-# Rubeus - Repo but no binaries
-git clone https://github.com/GhostPack/Rubeus.git /home/kali/server/Rubeus
-
-# Rubeus - Binary download
-wget https://github.com/Z333RO/security-tools-public/raw/main/odds_ends/Rubeus.exe -P /home/kali/server
-
-# Windows PHP Reverse Shell Script 
-wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/scripts/windows_php_shell.php
-wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/server/windows_php_shell.php
-
-# PrintNightmare Script
-wget https://raw.githubusercontent.com/cube0x0/CVE-2021-1675/main/CVE-2021-1675.py -P /home/kali/scripts
-
-# PrintSpoofer
-wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe -P /home/kali/server
-wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe -P /home/kali/server
-
-# Rustscan
-wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb -P /home/kali/tools
-
-# Octopii
-git clone https://github.com/redhuntlabs/Octopii /home/kali/tools/Octopii
-
-# PowerLess Shell - a way to bypass powershell restrictions by executing powershell scripts without powershell
-git clone https://github.com/Mr-Un1k0d3r/PowerLessShell /home/kali/tools/PowerLessShell
 
 # Drone exploit framework similar to metasploit
 git clone https://github.com/dhondta/dronesploit /home/kali/tools/dronesploit
