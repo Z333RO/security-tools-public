@@ -89,6 +89,9 @@ wget https://github.com/projectdiscovery/subfinder/releases/download/v2.6.3/subf
 # AI subdomain recon
 git clone https://github.com/jhaddix/SubreconGPT /home/kali/tools/SubreconGPT
 
+# Subdomain enumeration bruteforce
+git clone https://github.com/d3mondev/puredns /home/kali/tools/puredns
+
 #lazyS3 download
 git clone https://github.com/nahamsec/lazys3 /home/kali/tools/lazys3
 
