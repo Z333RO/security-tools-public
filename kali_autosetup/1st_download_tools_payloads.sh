@@ -156,6 +156,10 @@ git clone https://github.com/xnl-h4ck3r/waymore /home/kali/tools/waymore
 # APKLeaks - Grab paths and routes from a mobile app and use on web app to test for vulnerable API routes or paths
 git clone https://github.com/dwisiswant0/apkleaks /home/kali/tools/apkleaks
 
+# DNS Resolver IP List
+git clone https://github.com/trickest/resolvers /home/kali/tools/trickest-resolvers
+
+
 
 # WEB EXPLOIT TOOLS
 
