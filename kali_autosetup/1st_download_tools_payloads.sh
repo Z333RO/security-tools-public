@@ -159,6 +159,9 @@ git clone https://github.com/dwisiswant0/apkleaks /home/kali/tools/apkleaks
 # DNS Resolver IP List
 git clone https://github.com/trickest/resolvers /home/kali/tools/trickest-resolvers
 
+# AI Screenshot Scanning tool - use after eyewitness
+git clone https://github.com/BishopFox/eyeballer /home/kali/tools/eyeballer
+
 
 
 # WEB EXPLOIT TOOLS
