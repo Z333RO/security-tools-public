@@ -36,6 +36,22 @@ git clone https://github.com/redhuntlabs/Octopii /home/kali/tools/Octopii
 # Really good API fuzzer 
 wget https://github.com/assetnote/kiterunner/releases/download/v1.0.2/kiterunner_1.0.2_linux_amd64.tar.gz -P /home/kali/tools
 
+# Nuclei Templates
+git clone https://github.com/AggressiveUser/AllForOne /home/kali/tools/AllForOne
+git clone https://github.com/xm1k3/cent /home/kali/tools/cent
+
+# GAP Burp Extension
+git clone https://github.com/xnl-h4ck3r/GAP-Burp-Extension /home/kali/tools/GAP-Burp-Extension
+
+# JS Analysis Tool
+git clone https://github.com/LewisArdern/metasecjs /home/kali/tools/metasecjs
+
+# JS API Extractor
+# Run the following commands to test:
+# function jsurls { jsluice urls <(curl -sk "$1"); }
+# jsurls {link to js file}
+git clone https://github.com/BishopFox/jsluice /home/kali/tools/jsluice
+
 
 
 # PAYLOADS AND REVERSE SHELLS
@@ -116,6 +132,23 @@ wget https://gist.githubusercontent.com/jhaddix/676e25ec0ee289406d7bece1ab074b50
 # ./Gdorklinks.sh  NameOfSomeCompanyMaybe
 wget https://gist.githubusercontent.com/jhaddix/1fb7ab2409ab579178d2a79959909b33/raw/e9fea4c0f6982546d90d241bc3e19627a7083e5e/Gdorklinks.sh -P /home/kali/tools
 
+# JHaddix - wordlists
+wget https://gist.githubusercontent.com/jhaddix/b80ea67d85c13206125806f0828f4d10/raw/c81a34fe84731430741e0463eb6076129c20c4c0/content_discovery_all.txt -P /home/kali/tools
+
+# six2dez wordlist 
+git clone https://github.com/six2dez/OneListForAll /home/kali/tools/OneListForAll
+
+# Docker Inspector Tool
+git clone https://github.com/wagoodman/dive /home/kali/tools/dive
+
+# Get All URLs - Archive Pages Enumeration
+git clone https://github.com/lc/gau /home/kali/tools/gau
+
+# Waymore - wayback machine enumeration/recon
+git clone https://github.com/xnl-h4ck3r/waymore /home/kali/tools/waymore
+
+# APKLeaks - Grab paths and routes from a mobile app and use on web app to test for vulnerable API routes or paths
+git clone https://github.com/dwisiswant0/apkleaks /home/kali/tools/apkleaks
 
 
 # WEB EXPLOIT TOOLS
@@ -129,6 +162,13 @@ git clone https://github.com/dafthack/MSOLSpray /home/kali/tools/MSOLSpray
 # dotdotpwn - for auto path traversal attacks
 git clone https://github.com/wireghoul/dotdotpwn /home/kali/tools/dotdotpwn
 
+# Automated SQLi Tool
+git clone https://github.com/r0oth3x49/ghauri /home/kali/tools/ghauri
+
+
+# Phishing Tools
+git clone https://github.com/fin3ss3g0d/evilgophish /home/kali/tools/evilgophish
+git clone https://github.com/kgretzky/evilginx2 /home/kali/tools/evilginx2
 
 
 # PRIVESC TOOLS
@@ -263,6 +303,9 @@ git clone https://github.com/dhondta/dronesploit /home/kali/tools/dronesploit
 
 # arsenal toolkit - cheat sheet
 git clone https://github.com/Orange-Cyberdefense/arsenal /home/kali/tools/arsenal
+
+# wordlist gen tool for URLs and paths
+git clone https://github.com/ameenmaali/wordlistgen /home/kali/tools/wordlistgen
 
 # Create alias for arsenal toolkit - type 'a' to run on zsh:
 # alias a='arsenal'
