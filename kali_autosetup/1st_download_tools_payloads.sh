@@ -5,7 +5,7 @@ mkdir -p /home/kali/tools /home/kali/scripts /home/kali/server /home/kali/loot /
 
 # ENUMERATION AND SCANNING TOOLS
 
-# autorecon from Tiberius
+# AutoRecon from Tiberius
 git clone https://github.com/Tib3rius/AutoRecon /home/kali/tools/AutoRecon
 
 # enum4linux-ng git clone
