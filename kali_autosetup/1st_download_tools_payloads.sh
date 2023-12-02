@@ -162,6 +162,8 @@ git clone https://github.com/trickest/resolvers /home/kali/tools/trickest-resolv
 # AI Screenshot Scanning tool - use after eyewitness
 git clone https://github.com/BishopFox/eyeballer /home/kali/tools/eyeballer
 
+# OSINT on social media accounts
+git clone https://github.com/piaolin/DetectDee /home/kali/tools/DetectDee
 
 
 # WEB EXPLOIT TOOLS
