@@ -330,6 +330,10 @@ wget https://www.netresec.com/?download=NetworkMiner -O /home/kali/tools/nm.zip
 # sudo chmod -R go+w Captures/
 # mono NetworkMiner.exe --noupdatecheck 
 
+# Squil - Snort Logs Analysis
+wget https://github.com/bammv/sguil/releases/download/v0.9.0/sguil-client-0.9.0-osx.bin -O /home/kali/tools/sguil-client-0.9.0-osx.bin
+
+
 # MISC
 
 # Parse through dehashed data using its API
