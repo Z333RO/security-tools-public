@@ -314,6 +314,21 @@ git clone https://github.com/danielbohannon/Invoke-Obfuscation /home/kali/tools/
 git clone https://github.com/Mr-Un1k0d3r/PowerLessShell /home/kali/tools/PowerLessShell
 
 
+# Blue Team - Monitoring and Forensics
+# NSA Cyber Tool for Monitoring and Forensics of ICS/SCADA environments
+wget https://github.com/nsacyber/GRASSMARLIN/releases/download/v3.2.1/grassmarlin_3.2.1.kali-1_amd64.deb -P /home/kali/server
+
+# Network Miner - Network Forensics Tool using pcap files (wireshark on roids)
+# See the 2nd script for install of mono
+wget https://www.netresec.com/?download=NetworkMiner -O /home/kali/tools/nm.zip
+# Run the following commands to get this setup
+# sudo apt install mono-devel 
+# sudo unzip /home/kali/tools/nm.zip
+# cd /home/kali/tools/NetworkMiner*
+# sudo chmod +x NetworkMiner.exe
+# sudo chmod -R go+w AssembledFiles/
+# sudo chmod -R go+w Captures/
+# mono NetworkMiner.exe --noupdatecheck 
 
 # MISC
 
