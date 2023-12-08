@@ -186,6 +186,9 @@ wget https://gist.githubusercontent.com/jhaddix/78cece26c91c6263653f31ba453e273b
 # XXE payload list
 git clone https://github.com/payloadbox/xxe-injection-payload-list /home/kali/tools/xxe-injection-payload-list
 
+# Automated XXE injection tool for direct and oob attacks
+git clone https://github.com/enjoiz/XXEinjector /home/kali/tools/XXEinjector
+
 # Phishing Tools
 git clone https://github.com/fin3ss3g0d/evilgophish /home/kali/tools/evilgophish
 git clone https://github.com/kgretzky/evilginx2 /home/kali/tools/evilginx2
