@@ -342,6 +342,9 @@ wget https://github.com/bammv/sguil/releases/download/v0.9.0/sguil-client-0.9.0-
 # Parse through dehashed data using its API
 git clone https://github.com/hmaverickadams/DeHashed-API-Tool /home/kali/tools/DeHashed-API-Tool
 
+# data exfiltration tool - mask the traffic when you exfiltrate data:
+git clone https://github.com/TryCatchHCF/PacketWhisper /home/kali/tools/PacketWhisper
+
 # Project Management and Report Writing with Ghostwriter
 git clone https://github.com/GhostManager/Ghostwriter.git /home/kali/tools/Ghostwriter
 
