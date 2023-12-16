@@ -248,6 +248,9 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550
 git clone https://github.com/The-Z-Labs/linux-exploit-suggester /home/kali/tools/linux-exploit-suggester
 git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester /home/kali/tools/Windows-Exploit-Suggester
 
+# WES NG - Windows Exploit Suggester Next Gen
+git clone https://github.com/bitsadmin/wesng /home/kali/tools/wesng
+
 # AccessChk Download - you might have to download the older version that accepts eula from command line here: https://xor.cat/assets/other/Accesschk.zip
 wget https://download.sysinternals.com/files/AccessChk.zip -P /home/kali/server
 
