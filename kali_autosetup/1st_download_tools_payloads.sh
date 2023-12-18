@@ -293,6 +293,8 @@ git clone https://github.com/GhostPack/Rubeus.git /home/kali/server/Rubeus
 # Rubeus - Binary download
 wget https://github.com/Z333RO/security-tools-public/raw/main/odds_ends/Rubeus.exe -P /home/kali/server
 
+# DONPAPI - Dump DPAPI creds remotely and bypass AV
+git clone git+https://github.com/login-securite/DonPAPI.git /home/kali/tools/DonPAPI
 
 
 # PIVOTING
