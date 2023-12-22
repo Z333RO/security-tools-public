@@ -63,7 +63,8 @@ git clone https://github.com/glowbase/macro_reverse_shell /home/kali/tools/macro
 wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/scripts/windows_php_shell.php
 wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master/shell.php -P /home/kali/server/windows_php_shell.php
 
-
+# Follina exploit (malicious MS Word Macro) - https://owasp.org/www-community/vulnerabilities/follina
+git clone https://github.com/chvancooten/follina.py /home/kali/tools/follina
 
 # WEB CRAWLERS
 
