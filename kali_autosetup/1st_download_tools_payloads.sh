@@ -66,6 +66,10 @@ wget https://raw.githubusercontent.com/sradigan/php_reverse_shell_windows/master
 # Follina exploit (malicious MS Word Macro) - https://owasp.org/www-community/vulnerabilities/follina
 git clone https://github.com/chvancooten/follina.py /home/kali/tools/follina
 
+# OpenSSH binary for windows x64 - good for persistence and getting a stable shell on windows machine
+wget https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.5.0.0p1-Beta/OpenSSH-Win64.zip -P /home/kali/server/ssh.zip
+
+
 # WEB CRAWLERS
 
 # Powerful python based web crawler
