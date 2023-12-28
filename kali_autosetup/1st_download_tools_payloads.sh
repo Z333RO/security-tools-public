@@ -19,13 +19,17 @@ wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_
 
 # Sharphound for Bloodhound
 wget https://github.com/BloodHoundAD/SharpHound/releases/download/v1.1.1/SharpHound-v1.1.1.zip -P /home/kali/server
+wget https://github.com/BloodHoundAD/SharpHound/releases/download/v2.3.0/SharpHound-v2.3.0.zip -P /home/kali/server
 
 # nmap binary download - ONLY USE FOR CTFs and to put on the jump box of a network
 wget https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_64/nmap -P /home/kali/server
 
-# AD and Windows Enumeration
+# AD and Windows Enumeration - Powerview
 wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1 -P /home/kali/server
 wget https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Privesc/PowerUp.ps1 -P /home/kali/server
+
+# Sharpview - dotnet implementation of Powerview
+wget https://github.com/tevora-threat/SharpView/raw/master/Compiled/SharpView.exe -P /home/kali/server
 
 # Rustscan
 wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb -P /home/kali/tools
