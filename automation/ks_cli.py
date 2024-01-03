@@ -20,7 +20,7 @@ commands = [
     ["sslscan", target],
     ["rustscan", "-a", target, "--ulimit", "5000", "--range", "1-65535", "--", "-sVC", "-Pn"],
     ["nikto", "-h", target, "-C", "all"],
-    ["enum4linux", target]
+    ["enum4linux", "-a", target]
 ]
 
 print("Initiating scans... Running commands... Please wait.")
