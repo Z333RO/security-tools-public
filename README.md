@@ -42,7 +42,7 @@ My public repository of hacking tools and scripts for use in web, network and cl
 1. download_execute.py - When run by user, downloads and executes Lazagne.exe. Then sends printed data to your email.
 
 ## Automation 
-1. kitchen_sink.py - Throw the kitchen sink at a target. Specify commands or scans to run at a target all at once.
+1. kitchen_sink.py - Throw the kitchen sink at a target. Specify commands or scans to run at a target all at once. (Good for CTFs and exams)
 2. ks_cli.py - Improved version of kitchen sink script, you just run the script and specify the target to get scanning. Then hit enter to check progress. (There is a bug when hitting enter, any commands that failed still pop up as pending - need to fix this later.)
 
 ## Kali Setup
