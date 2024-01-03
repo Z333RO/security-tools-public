@@ -30,6 +30,8 @@ now = datetime.datetime.now()
 folder_name = f"kitchen_sink_{now.strftime('%m_%d_%Y')}_{now.strftime('%H_%M_%S')}"
 os.makedirs(folder_name)
 
+completed_commands = []
+
 def run_command(command):
     command_name = command[0]
     command_args = command[1:]
@@ -40,18 +42,21 @@ def run_command(command):
         result = subprocess.run(command, stdout=file, stderr=subprocess.STDOUT)
         if result.returncode == 0:
             print(f"[+] {command_name} - SUCCESSFUL")
+            return command_name
         else:
             print(f"[x] {command_name} - ERROR FAILED: CHECK SCRIPT")
+            return None
 
 def check_pending():
+    global completed_commands
     while True:
         input_ = input()
         if input_ == "":
-          # Added this statement to check progress.
             print("Checking progress...")
             pending_commands = [command[0] for command in commands if command[0] not in completed_commands]
             for command_name in pending_commands:
-                print(f"[+] {command_name} pending completion...")
+                if command_name not in [None]:
+                    print(f"[+] {command_name} pending completion...")
 
 completed_commands = []
 
@@ -61,8 +66,9 @@ with ThreadPoolExecutor(max_workers=len(commands)) as executor:
         threading.Thread(target=check_pending).start()
 
         for future in as_completed(executor_threads):
-            command_name = future.result()[0]
-            completed_commands.append(command_name)
+            command_name = future.result()
+            if command_name:
+                completed_commands.append(command_name)
     except KeyboardInterrupt:
         print("\nStopping. Check folder.")
 
