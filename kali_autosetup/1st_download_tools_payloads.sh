@@ -135,7 +135,7 @@ git clone https://github.com/gwen001/github-subdomains /home/kali/tools/github-s
 
 # Favicon Analysis
 git clone https://github.com/devanshbatham/FavFreak /home/kali/tools/FavFreak
-git clone https://github.com/pielco11/fav-up /home/kali/tools/FavFreak
+git clone https://github.com/pielco11/fav-up /home/kali/tools/fav-up
 
 # JHaddix - Bounty Catch Script:
 wget https://gist.githubusercontent.com/jhaddix/91035a01168902e8130a8e1bb383ae1e/raw/13bf7bafd2b3d62a2bc9ef354b38e1b589ef46be/bountycatch.py -P /home/kali/tools
