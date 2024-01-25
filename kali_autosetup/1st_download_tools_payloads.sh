@@ -252,6 +252,7 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEAS.bat -P /home/kali/server
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASany.exe -P /home/kali/server
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASx64.exe -P /home/kali/server
+git clone https://github.com/61106960/adPEAS /home/kali/server/adPEAS
 
 # Exploit Suggester for Linux and Windows
 git clone https://github.com/The-Z-Labs/linux-exploit-suggester /home/kali/tools/linux-exploit-suggester
