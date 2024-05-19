@@ -30,6 +30,7 @@ My public repository of hacking tools and scripts for use in web, network and cl
 3. jwt_kid_exploit.rb - JWT kid exploit
 4. jwt_public_key_exploit.rb - JWT pulic key exploit
 5. jwt_secret_bruteforce.rb - JWT secret bruteforce
+6. grafana_hashcat_convert.py - convert Grafana DB into hashcat crackable format
 
 ## SQL Injection
 1. simple_blind_SQLi.py - Simple blind SQL Injection Script
