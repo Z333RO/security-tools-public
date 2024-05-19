@@ -13,6 +13,9 @@ git clone https://github.com/cddmp/enum4linux-ng /home/kali/tools/enum4linux-ng
 
 # SMB Crawler - ManSpider
 git clone https://github.com/blacklanternsecurity/MANSPIDER /home/kali/tools/MANSPIDER
+# Run the following to install manspider with pipx
+# pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
+# Then run this "pipx ensurepath" in order to add it to bin path, open a new terminal to test out manspider
 
 # kerbrute tool - kerberos pre-auth bruteforcing
 wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64 -P /home/kali/tools
