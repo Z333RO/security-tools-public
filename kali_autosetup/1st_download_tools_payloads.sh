@@ -207,6 +207,8 @@ git clone https://github.com/kgretzky/evilginx2 /home/kali/tools/evilginx2
 
 # JWT exploits
 git clone https://github.com/ticarpi/jwt_tool /home/kali/tools/jwt_tool
+# cd jwt_tool
+# python3 -m pip install termcolor cprint pycryptodomex requests
 
 # PRIVESC TOOLS
 # PwnKit git clone
