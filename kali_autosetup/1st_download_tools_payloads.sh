@@ -61,6 +61,8 @@ git clone https://github.com/BishopFox/jsluice /home/kali/tools/jsluice
 
 # Arjun - HTTP parameter discovery suite
 git clone https://github.com/s0md3v/Arjun /home/kali/tools/Arjun
+# cd Arjun
+# python3 setup.py install
 
 # PAYLOADS AND REVERSE SHELLS
 
