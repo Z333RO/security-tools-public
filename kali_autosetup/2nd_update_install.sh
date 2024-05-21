@@ -43,6 +43,7 @@ install_package commix
 install_package libreoffice
 install_package spray
 install_package ntpdate
+install_package golang-go
 
 dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
 
