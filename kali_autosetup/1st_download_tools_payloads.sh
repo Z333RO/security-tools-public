@@ -156,6 +156,9 @@ wget https://gist.githubusercontent.com/jhaddix/b80ea67d85c13206125806f0828f4d10
 # six2dez wordlist 
 git clone https://github.com/six2dez/OneListForAll /home/kali/tools/OneListForAll
 
+# API wordlist
+git clone https://github.com/hAPI-hacker/Hacking-APIs /home/kali/tools/Hacking-APIs
+
 # Docker Inspector Tool
 git clone https://github.com/wagoodman/dive /home/kali/tools/dive
 
