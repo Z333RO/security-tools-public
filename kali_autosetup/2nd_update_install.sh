@@ -65,6 +65,8 @@ pip3 install wapiti3
 
 # install Arjun
 pip3 install arjun
+# install mitmproxy2swagger for API reverse engineering
+pip3 install mitmproxy2swagger
 
 # arsenal - cheatsheet tool
 python3 -m pip install arsenal-cli
