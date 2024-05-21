@@ -59,7 +59,8 @@ git clone https://github.com/LewisArdern/metasecjs /home/kali/tools/metasecjs
 # jsurls {link to js file}
 git clone https://github.com/BishopFox/jsluice /home/kali/tools/jsluice
 
-
+# Arjun - HTTP parameter discovery suite
+git clone https://github.com/s0md3v/Arjun /home/kali/tools/Arjun
 
 # PAYLOADS AND REVERSE SHELLS
 
