@@ -205,7 +205,8 @@ git clone https://github.com/enjoiz/XXEinjector /home/kali/tools/XXEinjector
 git clone https://github.com/fin3ss3g0d/evilgophish /home/kali/tools/evilgophish
 git clone https://github.com/kgretzky/evilginx2 /home/kali/tools/evilginx2
 
-
+# JWT exploits
+git clone https://github.com/ticarpi/jwt_tool /home/kali/tools/jwt_tool
 
 # PRIVESC TOOLS
 # PwnKit git clone
