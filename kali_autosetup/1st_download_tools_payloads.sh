@@ -300,7 +300,8 @@ wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltN
 wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4x64.exe -P /home/kali/server
 wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet4x86.exe -P /home/kali/server
 
-
+# PyGPOAbuse - Abuse GPO to privesc
+git clone https://github.com/Hackndo/pyGPOAbuse /home/kali/tools/pyGPOAbuse
 
 # POST EXPLOITATION
 
