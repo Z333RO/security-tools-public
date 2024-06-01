@@ -64,6 +64,9 @@ pip install pycryptodome
 # install wapiti if not on kali
 pip3 install wapiti3
 
+# install certipy for ADCS abuse and privesc
+pip3 install certipy-ad
+
 # install Arjun
 pip3 install arjun
 # install mitmproxy2swagger for API reverse engineering
