@@ -319,8 +319,10 @@ git clone https://github.com/GhostPack/Rubeus.git /home/kali/server/Rubeus
 wget https://github.com/Z333RO/security-tools-public/raw/main/odds_ends/Rubeus.exe -P /home/kali/server
 
 # DONPAPI - Dump DPAPI creds remotely and bypass AV
-git clone git+https://github.com/login-securite/DonPAPI.git /home/kali/tools/DonPAPI
+git clone https://github.com/login-securite/DonPAPI.git /home/kali/tools/DonPAPI
 
+# KeyTabExtract
+git clone https://github.com/sosdave/KeyTabExtract /home/kali/tools/KeyTabExtract
 
 # PIVOTING
 # Chisel - Pivoting
