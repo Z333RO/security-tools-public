@@ -368,6 +368,9 @@ wget https://www.netresec.com/?download=NetworkMiner -O /home/kali/tools/nm.zip
 # Squil - Snort Logs Analysis
 wget https://github.com/bammv/sguil/releases/download/v0.9.0/sguil-client-0.9.0-osx.bin -O /home/kali/tools/sguil-client-0.9.0-osx.bin
 
+# C2 Frameworks
+git clone --recursive https://github.com/BC-SECURITY/Empire.git /home/kali/tools/Empire
+
 
 # MISC
 
