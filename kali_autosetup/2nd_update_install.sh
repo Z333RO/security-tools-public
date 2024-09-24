@@ -46,6 +46,8 @@ install_package ntpdate
 install_package golang-go
 install_package code-oss
 install_package netexec
+install_package feroxbuster
+
 
 dpkg -i /home/kali/tools/rustscan_2.0.1_amd64.deb
 
