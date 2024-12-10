@@ -268,6 +268,9 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASx64.exe -P /home/kali/server
 git clone https://github.com/61106960/adPEAS /home/kali/server/adPEAS
 
+# LSE - Linux Smart Enumeration
+git clone https://github.com/diego-treitos/linux-smart-enumeration /home/kali/server/linux-smart-enumeration
+
 # Exploit Suggester for Linux and Windows
 git clone https://github.com/The-Z-Labs/linux-exploit-suggester /home/kali/tools/linux-exploit-suggester
 git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester /home/kali/tools/Windows-Exploit-Suggester
