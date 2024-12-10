@@ -370,7 +370,7 @@ wget https://github.com/bammv/sguil/releases/download/v0.9.0/sguil-client-0.9.0-
 
 # C2 Frameworks
 git clone --recursive https://github.com/BC-SECURITY/Empire.git /home/kali/tools/Empire
-
+git clone https://github.com/brightio/penelope /home/kali/tools/penelope
 
 # MISC
 
