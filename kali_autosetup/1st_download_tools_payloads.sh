@@ -295,6 +295,9 @@ wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.1/pspy64 -P /
 wget https://raw.githubusercontent.com/CsEnox/EventViewer-UACBypass/main/Invoke-EventViewer.ps1 -P /home/kali/server
 wget https://raw.githubusercontent.com/samratashok/nishang/master/Shells/Invoke-PowerShellTcp.ps1 -P /home/kali/server
 
+# RunasCs - UAC bypass
+wget https://github.com/antonioCoco/RunasCs/releases/download/v1.5/RunasCs.zip -P /home/kali/server
+
 # Seatbelt - Compiled by carlospolop
 wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5AnyCPU.exe -P /home/kali/server
 wget https://github.com/carlospolop/winPE/raw/master/binaries/seatbelt/SeatbeltNet3.5x64.exe -P /home/kali/server
