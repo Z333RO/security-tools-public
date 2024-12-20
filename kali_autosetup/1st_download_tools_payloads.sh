@@ -271,6 +271,9 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20231112-0a42c550/winPEASx64.exe -P /home/kali/server
 git clone https://github.com/61106960/adPEAS /home/kali/server/adPEAS
 
+# PrivescCheck
+git clone https://github.com/itm4n/PrivescCheck /home/kali/server/PrivescCheck
+
 # LSE - Linux Smart Enumeration
 git clone https://github.com/diego-treitos/linux-smart-enumeration /home/kali/server/linux-smart-enumeration
 
