@@ -257,6 +257,9 @@ wget https://raw.githubusercontent.com/cube0x0/CVE-2021-1675/main/CVE-2021-1675.
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe -P /home/kali/server
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe -P /home/kali/server
 
+# RogueWinRM
+wget https://github.com/antonioCoco/RogueWinRM/releases/download/1.1/RogueWinRM.zip -P /home/kali/server
+
 # Mimikatz - old and new
 wget https://github.com/ParrotSec/mimikatz/raw/master/x64/mimikatz.exe -P /home/kali/server
 wget -O /home/kali/server/old_mimikatz_trunk.zip https://github.com/caday00/mimikatz2.1.1/raw/master/mimikatz_trunk.zip
