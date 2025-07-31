@@ -51,7 +51,3 @@ My public repository of hacking tools and scripts for use in web, network and cl
 
 ## Methodology
 1. This folder contains methodologies for various engagement types as well as cheat sheets for common and useful commands I've used on CTFs and Penetration Tests
-
-## Odds and Ends
-Commonly used compiled binaries, tools or other useful scripts.
-NOTE: DO NOT USE THESE BINARIES ON PRODUCTION SYSTEMS!! YOU HAVE BEEN WARNED!!
